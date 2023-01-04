@@ -62,8 +62,8 @@ export default function TextForm(props) {
     id="MyBox" rows="8"></textarea>
     </div>
     <button className="btn btn-warning mx-2 my-2"onClick={handleUpClick}>Convert to Uppercase</button>
-    <button className="btn btn-warning mx-2"onClick={handleLoClick}>Convert to Lowercase</button>
     <button className="btn btn-warning mx-2"onClick={handleClearClick}>Clear Text</button>
+    <button className="btn btn-warning mx-2"onClick={handleLoClick}>Convert to Lowercase</button>
     <button type="submit" onClick={speak} className="btn btn-warning mx-2 my-2" id="toggle">Speak</button>
     <button className="btn btn-warning mx-2"onClick={handleCopy}>Text Copy</button>
     <button className="btn btn-warning mx-2"onClick={handleExtraSpaces}>Remove Extra Spaces</button>
